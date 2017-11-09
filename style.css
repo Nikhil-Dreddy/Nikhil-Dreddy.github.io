@@ -1,0 +1,32 @@
+p {
+    color:aqua
+}
+
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: firebrick;
+}
+
+#navigation li {
+    float:left;
+}
+
+#navigation li a {
+    display:block;
+    color:azure;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#navigation li a:hover {
+   background-color: darkred;
+}
+
+.active {
+    background-color: darksalmon;
+}
