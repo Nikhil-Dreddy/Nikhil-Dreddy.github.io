@@ -3,13 +3,26 @@
     <meta charset="UTF-8">
 
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#maincontainer").hide();
+                $("#maincontainer").fadeIn(2000);
+                $("#jumbotron").hide();
+               $("#jumbotron").fadeIn(4000);
+            });
+        </script>
         <title>Nikhil Donthireddy</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="style.css" type="text/css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     </head>
-    
-    <body>
+
+    <body >
         <div class="btn-group">
             <button class="button">Nikhil-Donthireddy</button>
             <div class="dropdown">
@@ -21,16 +34,25 @@
             </div> 
             <button class="button" id="contact">Contact</button>
         </div>
-    <div class="jumbotron">
-        <div clas="container text-center">
-        <h1>Nikhil Donthireddy</h1>
-        <p> I am a cooll person</p>
-        </div>    
-    </div>
-    </body>
-   
 
+        <div class="w3-display-container" id="maincontainer">
+            <img src="background.jpg" alt="Lights" style="width:100%">
+            <div class="w3-padding w3-display-topleft">Top Left</div>
+            <div class="w3-padding w3-display-topright">Top Right</div>
+            <div class="w3-padding w3-display-bottomleft">Bottom Left</div>
+            <div class="w3-padding w3-display-bottomright">Bottom Right</div>
+            <div class="w3-padding w3-display-bottommiddle">Bottom Mid</div>
+            <div class="w3-padding w3-display-topmiddle">Top Mid</div>
+            <div class="w3-padding w3-display-left">Left</div>
+            <div class="w3-padding w3-display-right">Right</div>
+            <div class="w3-padding w3-display-middle"><div class="jumbotron" id="jumbotron">
+                <div class="container text-center">
+                    <h1>Nikhil Donthireddy</h1>
+                    <p> I am a cooll person</p>
+                </div>    </div>
+            </div>
 
+            </body>
 
-</html>
+        </html>
 
