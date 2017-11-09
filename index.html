@@ -8,19 +8,40 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
+    
     <body>
         <div class="btn-group">
-             <button class="button">Nikhil-Donthireddy</button>
+            <button class="button">Nikhil-Donthireddy</button>
             <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn">Projects</button>
-                <a href="Tatai.html">Tatai</a>
-                <a href="Nba.html">NBAStats</a>
+                <div class="dropdown-content">
+                    <a href="Tatai.html">Tatai</a>
+                    <a href="Nba.html">NBAStats</a>
+                </div>
             </div> 
-            <button class="button">Contact</button>
+            <button class="button" id="contact">Contact</button>
 
         </div>
 
     </body>
+    <script>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+    </script>
 
 </html>
+
