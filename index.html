@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <meta charset="UTF-8">
-
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script>
@@ -10,6 +9,32 @@
                 $("#maincontainer").fadeIn(2000);
                 $("#jumbotron").hide();
                 $("#jumbotron").fadeIn(4000);
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#padding").mouseenter(function(){
+                    $("#about").css("background-color","gray");    
+                    $("#about").css("border-bottom","3px solid gray");
+                });
+            });
+            $(document).ready(function(){
+                $("#padding").mouseleave(function(){
+                    $("#about").css("background-color","#fdfdfd");
+                    $("#about").css("border-bottom","0px solid gray");
+                });
+            });
+            $(document).ready(function(){
+                $("#about").mouseenter(function(){
+                    $("#about").css("background-color","gray");    
+                    $("#about").css("border-bottom","3px solid gray");
+                });
+            });
+            $(document).ready(function(){
+                $("#about").mouseleave(function(){
+                    $("#about").css("background-color","#fdfdfd");
+                    $("#about").css("border-bottom","0px solid gray");
+                });
             });
         </script>
         <title>Nikhil Donthireddy</title>
@@ -34,31 +59,35 @@
                 </div>
             </div> 
             <button class="button" id="contact">Contact</button>
+            <button class="button" id="about" ><a href="#aboutme" >AboutMe</a></button>
         </div>
 
         <div class="w3-display-container" id="maincontainer">
-            <img class="resize" src="background2.jpg" alt="Lights" >
+            <img class="resize" src="background3.jpg" alt="Lights" >
             <div class="w3-padding w3-display-topleft"></div>
             <div class="w3-padding w3-display-topright"></div>
             <div class="w3-padding w3-display-bottomleft"></div>
             <div class="w3-padding w3-display-bottomright"></div>
             <div class="w3-padding w3-display-bottommiddle">
-                <a href="https://github.com/Nikhil-Dreddy"><i class="fa fa-git-square" style="font-size:36px"></i></a>
-                <a href="https://www.linkedin.com/in/nikhil-donthireddy-05405a42/"><i class="fa fa-linkedin-square" style="font-size:36px;color: blue"></i></a>
-                <a href="https://twitter.com/AgentExemplary"><i class="fa fa-twitter-square" style="font-size:36px;color: deepskyblue"></i></a></div>
+            </div>
             <div class="w3-padding w3-display-topmiddle"></div>
             <div class="w3-padding w3-display-left"></div>
             <div class="w3-padding w3-display-right"></div>
             <div class="w3-padding w3-display-middle"><div class="jumbotron" id="jumbotron">
                 <div class="container text-center">
-                    <h1 class="title">Nikhil Donthireddy</h1>
+                    <h1 class="title">Nikhil Donthireddy </h1>
                     <p class="title_preview">Student and developer attending University of Auckland</p>
-                </div>    </div>
+                </div>     </div>
+                <div class = "icongroup">
+                    <a href="https://github.com/Nikhil-Dreddy"><i class="fa fa-git-square" style="font-size:36px"></i></a>
+                    <a href="https://www.linkedin.com/in/nikhil-donthireddy-05405a42/"><i class="fa fa-linkedin-square" style="font-size:36px;color: blue"></i></a>
+                    <a href="https://twitter.com/AgentExemplary"><i class="fa fa-twitter-square" style="font-size:36px;color: deepskyblue"></i></a> 
+                </div> 
             </div>            
 
         </div>
-        <div class="Padding">
-            <h1 class="aboutme"> About Me</h1>    
+        <div class="Padding" id="padding">
+            <h1 class="aboutme" id="aboutme"> About Me</h1>    
             <p>
 
             </p>
