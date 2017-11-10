@@ -3,9 +3,13 @@ body{
  font-family: Quicksand,OpenSans,cursive;
     font-weight: bold;
 }
-h1 {
-    font-family: Josefin Sans,Quicksand,sans-serif;
+h1,h2,h3{
+    font-family: Josefin Sans,Open Sans,Quicksand,sans-serif;
     font-weight: bold;
+}
+h4,p {
+    font-family: Josefin Sans,Open Sans,Quicksand;
+    font-weight:normal;
 }
 
 .icongroup {
@@ -13,7 +17,8 @@ h1 {
 }
 .fa {
     font-size: 30px;
-    width: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     text-align: center;
     text-decoration: none;
 }
@@ -128,13 +133,24 @@ height: 500px;
 opacity: 0.6;
 }
 
+#email {
+text-align: center;
+margin-left:150px;
+margin-right: 0;
+}
 .Padding{
     padding-top: 40px;
 }
+
 .title_preview{
-    padding-top: 0px''
+    padding-top: 0px;
     font-size: 15px;
 }
 .Padding .aboutme {
     text-align: center;
+}
+.Padding .bio {
+    max-width: 375px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
