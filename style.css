@@ -141,6 +141,35 @@ img.resize {
     color:darkblue;
 }
 
+table {
+     text-align: left;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+table tr td img {
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
+}
+
+
+
+table tr td img:hover{
+    opacity: 0.8;
+}
+
+
+
+#comingsoon {
+ 
+}
+
 .Padding{
     padding-top: 40px;
 }
@@ -154,24 +183,8 @@ img.resize {
 }
 
 .Padding .bio {
-    display: table-cell;
+    float:left;
     max-width: 375px;
     padding-top: 20px;
     padding-left: 20px;
-}
-.Padding .projects {
-  display: table-cell;
-  padding-left: 100px;
-}
-
-.Padding .projects img {
-    display: table-cell;
-    width:300px;
-   box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
-    margin: 10px;
-}
-
-.Padding .projects img:hover {
-   opacity: 0.8;
-    
 }
