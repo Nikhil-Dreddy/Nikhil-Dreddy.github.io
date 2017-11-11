@@ -152,8 +152,26 @@ img.resize {
 .Padding .aboutme {
     text-align: center;
 }
+
 .Padding .bio {
+    display: table-cell;
     max-width: 375px;
     padding-top: 20px;
     padding-left: 20px;
+}
+.Padding .projects {
+  display: table-cell;
+  padding-left: 100px;
+}
+
+.Padding .projects img {
+    display: table-cell;
+    width:300px;
+   box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
+    margin: 10px;
+}
+
+.Padding .projects img:hover {
+   opacity: 0.8;
+    
 }
