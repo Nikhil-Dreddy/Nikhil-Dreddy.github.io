@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    font-family: Quicksand,OpenSans,cursive;
+    font-weight: bold;
+}
+h1,h2,h3{
+    font-family: Josefin Sans,Open Sans,Quicksand,sans-serif;
+    font-weight: bold;
+}
+h4,p {
+    font-family: Josefin Sans,Open Sans,Quicksand;
+    font-weight:normal;
+}
+pre {
+    font-family: Josefin Sans,Open Sans,Quicksand;
+    font-weight:normal;
+}
+.icongroup {
+    text-align: center;
+}
+
+
+.fa:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+a {
+    text-decoration: none;
+}
+.btn-group {
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    opacity: 0.8;
+    background-color:#fdfdfd;
+    box-shadow: 0px 0px 1px 0px
+}
+
+
+.btn-group .button {
+    background-color:#fdfdfd;
+    float:left;
+    display: inline-block;
+    border: none;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background-color:gray;
+    border-bottom: 3px solid gray; 
+}
+
+.git {
+    float:right;
+    position: relative;
+    display:inline-block;
+     padding: 10px 16px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.git:hover {
+    background-color:gray;
+    border-bottom: 3px solid gray; 
+}
+
+
