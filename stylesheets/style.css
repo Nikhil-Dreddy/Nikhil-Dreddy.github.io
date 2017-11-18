@@ -12,7 +12,7 @@ h4,p {
     font-weight:normal;
 }
 pre {
-     font-family: Josefin Sans,Open Sans,Quicksand;
+    font-family: Josefin Sans,Open Sans,Quicksand;
     font-weight:normal;
 }
 .icongroup {
@@ -51,10 +51,10 @@ a {
     display: inline-block;
     border: none;
     color: black;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
 }
 
@@ -68,10 +68,10 @@ a {
     background-color: inherit;
     border: none;
     color: black;
-    padding: 15px 32px;
+    padding: 10px 16px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
 
 }
@@ -124,7 +124,7 @@ a {
 
 .contactme hr{
     padding-top: 10px;
-   height: 30px;
+    height: 30px;
     background: whitesmoke;
 }
 .jumbotron {
@@ -151,7 +151,7 @@ img.resize {
 }
 
 table {
-     text-align: left;
+    text-align: left;
     padding-top: 20px;
     padding-left: 100px;
 }
@@ -174,11 +174,11 @@ table tr td img:hover{
 }
 
 .foo {
-  float: left;
-  width: 350px;
-  height: 300px;
-  margin: 5px;
-   background: #EEE04A;
+    float: left;
+    width: 350px;
+    height: 300px;
+    margin: 5px;
+    background: #EEE04A;
     box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
 }
 
@@ -186,8 +186,8 @@ table tr td img:hover{
     opacity: 0.7;
 }
 .lightblue {
-     background: aquamarine;
- width: 415px;
+    background: #6666ff;
+    width: 415px;
 }
 .foo h1 {
     padding-top: 50px;
