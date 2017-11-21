@@ -101,17 +101,19 @@ a {
     left: 370px;
     top:100px;
     box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
-1
+}
 
-.slideshow {
-  padding-top: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center 
+.row {
+     margin-top: 20px;
 }
-.images {
-    position: relative;
+.row .column {
+    margin-left: 100px;
+     margin-right: 10px;
+    display: inline;
 }
-    #prev {
-       {position:absolute;bottom:0;right:0;}
-    }
+
+.row .column:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
