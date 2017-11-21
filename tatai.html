@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+        <link href="./res/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
         <script>
             $(document).ready(function(){
                 $("#git").mouseenter(function(){
@@ -36,6 +36,21 @@
                 });
             });
         </script>
+
+
+        <script>
+
+            function closeModal() {
+                document.getElementById('myModal').style.display = "none";
+            }
+            function currentImage(n) {
+                var images = document.getElementsByClassName("image");        
+                document.getElementById("test").style.display="block";
+            }
+            
+
+
+        </script>
     </head>
 
     <body >
@@ -45,7 +60,7 @@
             <a href="mailto:nikhilreddy24@hotmail.com" class="button" id="email"><i class="fa fa-envelope" id="emailicon" ></i> Contact</a>
         </div>
         <div class="parallax">
-            <div class="bg_foo"><img class="resize" src="../Nikhil-Dreddy.github.io/res/tatai/image1.png" alt="Lights" ></div>
+            <div class="bg_foo"><img class="resize" src="../Nikhil-Dreddy.github.io/res/tatai/image5.png" alt="Lights" ></div>
         </div>
         <div class="w3-container w3-padding-32 w3-brown">
             <h1 class="w3-center"> Tatai </h1>
@@ -65,32 +80,35 @@
             </table>
             <br> <br>
             <h3 class="w3-center"> Images </h3>
-             <h5 style="font-style: italic" class="w3-center"> Click to expand </h4>
+            <h5 style="font-style: italic" class="w3-center"> Click to expand </h5>
             <br>
+            
             <div class="row" > 
                 <div class="column" >
-                    <img src="./res/tatai/image10.png" style="width:23%">
+                    <a href="./res/tatai/image5.png" data-lightbox="screenshots" data-title="Main-Menu"> <img src="./res/tatai/image5.png"  style="width:23%"> </a>
                 </div>
-                 <div class="column" >
-                    <img src="./res/tatai/image1.png" style="width:23%">
-                </div>
-                 <div class="column" >
-                    <img src="./res/tatai/image5.png" style="width:23%">
-                </div>
-            </div>
-            
-                <div class="row" > 
                 <div class="column" >
-                    <img src="./res/tatai/image13.png" style="width:23%">
+                    <a href="./res/tatai/image1.png" data-lightbox="screenshots" data-title="Recording/Listen/Sumbit">  <img src="./res/tatai/image1.png" style="width:23%"> </a>
                 </div>
-                 <div class="column" >
-                    <img src="./res/tatai/image2.png" style="width:23%">
+                <div class="column" >
+                    <a href="./res/tatai/image4.png" data-lightbox="screenshots" data-title="Wrong Screen"> <img src="./res/tatai/image4.png"  style="width:23%"> </a>
                 </div>
-                 <div class="column" >
-                    <img src="./res/tatai/image3.png" style="width:23%">
+            </div>           
+            <div class="row" > 
+                <div class="column" >
+                    <a href="./res/tatai/image6.png" data-lightbox="screenshots" data-title="Correct Screen"> <img src="./res/tatai/image6.png" style="width:23%"> </a>
+                </div>
+                <div class="column" >
+                    <a href="./res/tatai/image2.png" data-lightbox="screenshots" data-title="High-Score & Leaderboard "> <img src="./res/tatai/image2.png"  style="width:23%"> </a>
+                </div>
+                <div class="column" >
+                     <a href="./res/tatai/image3.png" data-lightbox="screenshots" data-title="Custom Equations Creator">
+                         <img src="./res/tatai/image3.png" function="onClick=currentImage(3)" style="width:23%"> </a>
                 </div>
             </div>
-
 
         </div>
+        
+        
+        <script src="./res/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
     </body>
