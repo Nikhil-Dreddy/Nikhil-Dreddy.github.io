@@ -26,6 +26,15 @@ pre {
     text-decoration: none;
 }
 
+@media screen and (max-width: 500px) {
+/* applies only if the screen is narrower than 500px */
+  .fa {
+   margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+
 .fa:hover {
     cursor: pointer;
     opacity: 0.7;
@@ -184,7 +193,12 @@ table tr td img {
     box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
 }
 
-
+@media screen and (max-width: 500px) {
+/* applies only if the screen is narrower than 500px */
+  table tr td img {
+    max-height:100px;
+  }
+}
 
 table tr td img:hover{
     opacity: 0.8;
@@ -198,6 +212,8 @@ table tr td img:hover{
     background: #EEE04A;
     box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
 }
+
+
 
 .foo:hover{
     opacity: 0.7;
