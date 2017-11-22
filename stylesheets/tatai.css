@@ -107,29 +107,33 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-/* applies only if the screen is narrower than 500px */
-  .bg_foo img {
-     left: 30px;
-      width: 280px;
-      top:300px;
-  }
+    /* applies only if the screen is narrower than 500px */
+    .bg_foo img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 350px;
+        top:300px;
+    }
 }
 
 .row {
-     margin-top: 20px;
+    margin-top: 20px;
 }
 .row .column {
     margin-left: 100px;
-     margin-right: 10px;
+    margin-right: 10px;
     display: inline;
 }
 
 @media screen and (max-width: 500px) {
-/* applies only if the screen is narrower than 500px */
-  .row .column {
-  margin-left: 10px;
-     margin-right: 20px;
-  }
+    /* applies only if the screen is narrower than 500px */
+    .row .column {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
 }
 
 
@@ -143,5 +147,5 @@ a {
     .w3-bar button {
         margin: 10px;
     }
-    
+
 }
