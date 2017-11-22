@@ -169,8 +169,8 @@ img.resize {
 
 #email {
     text-align: center;
-    margin-left:150px;
-    margin-right: 0;
+    margin-right: 0px;
+     margin-left: 0px;
     font-size:50px;
     color:darkblue;
 }
@@ -215,7 +215,9 @@ table tr td img:hover{
     width: 350px;
     height: 300px;
     margin: 5px;
-    background: #EEE04A;
+    background: #E24E42;
+    color:white;
+    width: 415px;
     box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
 }
 
@@ -256,8 +258,8 @@ table tr td img:hover{
 }
 
 .Padding .bio {
-    float:left;
-    max-width: 375px;
+    
+ 
     padding-top: 20px;
     padding-left: 20px;
 }
