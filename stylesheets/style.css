@@ -46,6 +46,7 @@ a {
 
 
 .btn-group .button {
+    max-width: 100%;
     background-color:#fdfdfd;
     float:left;
     display: inline-block;
@@ -143,12 +144,18 @@ img.resize {
     opacity: 0.6;
       /* fix background */
   background-attachment: fixed;
-
+    
   /* center it */
   background-position: center center;
 
-  /* Scale it nicely to the element */
   background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+/* applies only if the screen is narrower than 500px */
+  img.resize  {
+    max-width=100%;
+  }
 }
 
 #email {
@@ -165,13 +172,14 @@ table {
     padding-left: 100px;
 }
 
+
 table tr td img {
     margin: 0;
     overflow: hidden;
     display: block;
     text-align: center;
     max-height:300px;
-    width: auto;
+    max-width: 100%
     height: auto;
     box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
 }

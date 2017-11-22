@@ -82,6 +82,7 @@ a {
 
 .bg_foo {
     height: 800px;
+    max-width: 100%;
     box-shadow: inset 0 0 1em #111;
     text-indent: -9999px;
     /* fix background */
@@ -96,10 +97,12 @@ a {
 }
 
 .bg_foo img {
+    max-width: 100%;
     border: 0;
     position:absolute;
     left: 370px;
     top:100px;
+    overflow: hidden;
     box-shadow: 1px 10px 18px 1px rgba(0,0,0,0.2);
 }
 
@@ -112,9 +115,16 @@ a {
     display: inline;
 }
 
+@media all and (max-width:736px) {
+    .row .column {margin-left: 0px;}
+}
 .row .column:hover {
     opacity: 0.7;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+@media all and (max-width:736px) {
+    img {position: relative;max-width: 100%;}
 }
 
