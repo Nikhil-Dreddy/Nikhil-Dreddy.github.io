@@ -284,3 +284,18 @@ table tr td img:hover{
         font-size: 20px;
     }
 }
+
+#mobliecontactme {
+        display: none;
+    }
+
+@media screen and (max-width: 500px) {
+/* applies only if the screen is narrower than 500px */
+    
+    #contactme {
+        display: none;
+    }
+    #mobliecontactme {
+        display: block;
+    }
+}
